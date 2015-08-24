@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rm49345.demointentcadastro" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PessoaFisicaActivity"
+            android:label="@string/title_activity_pessoa_fisica" >
+            <intent-filter>
+                <action android:name="com.example.rm49345.demointentcadastro.action.CADASTRO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.example.rm49345.demointentcadastro.PESSOA_FISICA"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PessoaJuridicaActivity"
+            android:label="@string/title_activity_pessoa_juridica" >
+            <intent-filter>
+                <action android:name="com.example.rm49345.demointentcadastro.action.CADASTRO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.example.rm49345.demointentcadastro.PESSOA_JURIDICA"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_pessoa_fisica">Pessoa Fisica</string>
+    <string name="tvPessoaJuridica">Pessoa Juridica</string>
+    <string name="btPessoaJuridica">Pessoa Juridica</string>
+    <string name="btPessoaFisica">Pessoa Fisica</string>
+</resources>

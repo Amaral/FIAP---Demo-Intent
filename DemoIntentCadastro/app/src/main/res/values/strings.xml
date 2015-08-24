@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoIntentCadastro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pessoa_fisica">PessoaFisicaActivity</string>
+    <string name="title_activity_pessoa_juridica">PessoaJuridicaActivity</string>
+    <string name="tvPessoaJuridica">Pessoa Juridica</string>
+    <string name="tvPessoaFisica">Pessoa Fisica</string>
+    <string name="btPessoaJuridica">Pessoa Juridica</string>
+    <string name="btPessoaFisica">Pessoa Fisica</string>
+
+</resources>
